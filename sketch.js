@@ -20,7 +20,7 @@ function setup(){
     cat = createSprite(870,600);
     cat.addAnimation("catSitting",catImg1);
     cat.scale = 0.2;
-
+    
     mouse = createSprite(200,600);
     mouse.addAnimation("mouseStanding",mouseImg1);
     mouse.scale  = 0.15;
@@ -55,7 +55,7 @@ function keyPressed(){
         cat.velocityX = -5; 
         cat.addAnimation("catRunning", catImg2);
         cat.changeAnimation("catRunning");
-
+        
         mouse.addAnimation("mouseTeasing", mouseImg2);
         mouse.changeAnimation("mouseTeasing");
 
